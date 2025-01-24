@@ -60,5 +60,5 @@ int main(int argc, char **argv)
         write(input_pipe[1], &i, sizeof(i));
     }
     wait(0);
-    exit(0);
+    exit(0); // 退出
 }
